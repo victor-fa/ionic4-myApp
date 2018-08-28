@@ -1,17 +1,17 @@
-<!-- <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Contact
-    </ion-title>
-  </ion-toolbar>
-</ion-header> -->
-
 <ion-content>
-
 
   <ion-toolbar>
     <ion-searchbar></ion-searchbar>
   </ion-toolbar>
+  <br>
+
+  <ion-card>
+    <ion-img src="/assets/image/stormfa简历.png"></ion-img>
+    <ion-card-content>
+      <ion-card-title>Hello Stormfa</ion-card-title>
+      <p>Do one thing at a time, and do well.</p>
+    </ion-card-content>
+  </ion-card>
   <br>
 
   <ion-button>Default</ion-button>
@@ -28,13 +28,6 @@
   <br>
   <!-- Expand -->
   <ion-button expand="full">Full Button</ion-button>
-  <ion-button expand="block">Block Button</ion-button>
-  <!-- Round -->
-  <ion-button round>Round Button</ion-button>
-  <!-- Fill -->
-  <ion-button expand="full" fill="outline">Outline + Full</ion-button>
-  <ion-button expand="block" fill="outline">Outline + Block</ion-button>
-  <ion-button round fill="outline">Outline + Round</ion-button>
   <!-- Icons -->
   <ion-button>
     <ion-icon slot="start" name="star"></ion-icon>
@@ -44,40 +37,20 @@
     Right Icon
     <ion-icon slot="end" name="star"></ion-icon>
   </ion-button>
-  <ion-button>
-    <ion-icon slot="icon-only" name="star"></ion-icon>
-  </ion-button>
-  <!-- Sizes -->
-  <ion-button size="large">Large</ion-button>
-  <ion-button>Default</ion-button>
-  <ion-button size="small">Small</ion-button>
+  <br>
+  <br>
+
+  <ion-item>
+    <ion-label>Date</ion-label>
+    <ion-datetime display-format="MM/DD/YYYY"></ion-datetime>
+  </ion-item>
   <br>
 
   <ion-list>
     <ion-item>
       <ion-range color="danger" pin="true"></ion-range>
     </ion-item>
-
-    <ion-item>
-      <ion-range min="-200" max="200" color="secondary">
-        <ion-label slot="start">-200</ion-label>
-        <ion-label slot="end">200</ion-label>
-      </ion-range>
-    </ion-item>
-
-    <ion-item>
-      <ion-range min="20" max="80" step="2">
-        <ion-icon size="small" slot="start" name="sunny"></ion-icon>
-        <ion-icon slot="end" name="sunny"></ion-icon>
-      </ion-range>
-    </ion-item>
-
-    <ion-item>
-      <ion-range min="1000" max="2000" step="100" snaps="true" color="secondary"></ion-range>
-    </ion-item>
-
-    <ion-item>
-      <ion-range dualKnobs="true" min="21" max="72" step="3" snaps="true"></ion-range>
-    </ion-item>
   </ion-list>
+  <br>
+
 </ion-content>
